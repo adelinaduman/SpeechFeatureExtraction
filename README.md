@@ -3,10 +3,10 @@
 
 
 # Methodologies
-Feature Extraction
-The features are extracted using Praat software commands through the Parselmouth library in Python. The following methodologies were used:
-Pitch Extraction
-Set pitch floor to 75Hz and pitch ceiling to 600Hz.
+- Feature Extraction
+  - The features are extracted using Praat software commands through the Parselmouth library in Python. The following methodologies were used:
+- Pitch Extraction
+ - Set pitch floor to 75Hz and pitch ceiling to 600Hz.
 Jitter Extraction
 Extracted local jitter with period floor of 0.0001s, period ceiling of 0.02s, and maximum period factor of 1.3.
 Shimmer Extraction
