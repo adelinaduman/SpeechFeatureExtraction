@@ -6,20 +6,21 @@
 - Feature Extraction
   - The features are extracted using Praat software commands through the Parselmouth library in Python. The following methodologies were used:
 - Pitch Extraction
- - Set pitch floor to 75Hz and pitch ceiling to 600Hz.
-Jitter Extraction
-Extracted local jitter with period floor of 0.0001s, period ceiling of 0.02s, and maximum period factor of 1.3.
-Shimmer Extraction
-Extracted local shimmer with period floor of 0.0001s, period ceiling of 0.02s, maximum period factor of 1.3, and maximum amplitude factor of 1.6.
-Intensity Extraction
-Set pitch floor to 100Hz and used the 'energy' averaging method to get mean intensity.
-HNR Calculation
-Extracted harmonicity (cc) with time step of 0.01, minimum pitch of 75Hz, silence threshold of 0.1, and number of periods per window to 1.0.
-Speaking Rate
-Approximated with #words/duration.
+  - Set pitch floor to 75Hz and pitch ceiling to 600Hz.
+- Jitter Extraction
+  - Extracted local jitter with period floor of 0.0001s, period ceiling of 0.02s, and maximum period factor of 1.3.
+- Shimmer Extraction
+  - Extracted local shimmer with period floor of 0.0001s, period ceiling of 0.02s, maximum period factor of 1.3, and maximum amplitude factor of 1.6.
+- Intensity Extraction
+  - Set pitch floor to 100Hz and used the 'energy' averaging method to get mean intensity.
+- HNR Calculation
+  - Extracted harmonicity (cc) with time step of 0.01, minimum pitch of 75Hz, silence threshold of 0.1, and number of periods per window to 1.0.
+- Speaking Rate
+  - Approximated with #words/duration.
 
 # Speech Recording
-Recorded emotional speech (one sentence each) in a quiet room using a headset with a microphone. Trimmed leading and trailing silence. Emotions recorded: Happy, Angry, Sad, Afraid, Surprised, Disgusted, Neutral.
+Recorded emotional speech (one sentence each) in a quiet room using a headset with a microphone.
+- Trimmed leading and trailing silence. Emotions recorded: Happy, Angry, Sad, Afraid, Surprised, Disgusted, Neutral.
 
 # Tech Stack
 - Python
