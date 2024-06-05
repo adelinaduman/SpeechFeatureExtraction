@@ -1,0 +1,2 @@
+# SpeechFeatureExtraction
+ This project focuses on the extraction and analysis of features from emotional speech. It involves recording and analyzing self-produced emotional speech as well as samples from the MSP-Podcast corpus. The primary goal is to extract various speech features such as pitch, intensity, speaking rate, jitter, shimmer, and Harmonics-to-Noise Ratio (HNR) using Praat software and the Parselmouth Python library.
